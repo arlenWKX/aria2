@@ -71,7 +71,7 @@ RUN tar xf sqlite-autoconf-3360000.tar.gz && \
     make install
 
 RUN tar xf zlib-1.2.13.tar.gz && \
-    cd zlib-1.2.11 && \
+    cd zlib-1.2.13 && \
     CC=$HOST-gcc \
     AR=$HOST-ar \
     LD=$HOST-ld \
